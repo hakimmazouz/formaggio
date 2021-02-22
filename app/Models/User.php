@@ -39,5 +39,12 @@ class User extends Authenticatable
      */
     protected $casts = [
         'email_verified_at' => 'datetime',
+        'settings' => 'array'
     ];
+
+    protected $with = ['forms'];
+
+    public function forms() {
+        return $this->hasMany(Form::class);
+    }
 }
