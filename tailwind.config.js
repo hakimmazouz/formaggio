@@ -7,6 +7,17 @@ module.exports = {
                 sans: ['Inter var', ...defaultTheme.fontFamily.sans],
             },
         },
+        colors: {
+            "red": "#ed1c24",
+            "white": "#fdfffc",
+            "blue": "#235789",
+            "grayblue": "#4E78A0",
+            "formaggio": "#fae0b5",
+            "darkformaggio": "#E1C9A2",
+            "yellow": "#f1d302",
+            "darkyellow": "#D8BD01",
+            "black": "#020100"
+        }
     },
     variants: {
         extend: {
